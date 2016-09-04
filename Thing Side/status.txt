@@ -1,0 +1,3 @@
+Registered = "Yes";
+ThingId = "7465"; 
+TokenId = "7467"; 

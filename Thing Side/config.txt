@@ -1,0 +1,42 @@
+//config.txt 
+
+// Parameters
+params = 
+{
+//an unique id for the thing - user given
+ThingId = "RFC32";
+
+//location of the thing
+Location = "Chennai";
+
+//secret key used for handshake. Make sure the same key is configured on the server side 
+Key = "volansure";
+
+//IP address of the server to which data is to be sent
+Server = "10.17.198.120";
+
+//No of instances of a specific set of sensors, modeler and sender
+Sets = "1";
+
+//set 1
+// number sensors in the set
+Sensor_drivers_no_1 = "6";
+//sensor id
+Sensor_driver1_1 = "ADIS16266";
+Sensor_driver2_1 = "ADXL345";
+Sensor_driver3_1 = "ADXL335";
+Sensor_driver4_1 = "SRF04";
+Sensor_driver5_1 = "SPC 1000";
+Sensor_driver6_1 = "LM35";
+//which modeler to use
+Modeler_1 = "modeller";
+//which sender to use
+Sender_1 = "coap-sender"; 
+
+//set 2
+Sensor_drivers_no_2 = "2";
+Sensor_driver1_2 = "sensordriver";
+Sensor_driver2_2 = "sensordriver";
+Modeler_2 = "modeler";
+Sender_2 = "sender"; 
+};
